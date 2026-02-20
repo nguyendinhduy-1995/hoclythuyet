@@ -152,7 +152,6 @@ export default function ExamClient({ initialQuestions, config }: Props) {
 
     const handleAnswer = useCallback((questionId: string, answerId: string) => {
         if (submitted) return;
-        if (!config.isPractice && answers[questionId]) return; // No change in exam mode
 
         // Haptic feedback
         if (typeof navigator !== 'undefined' && navigator.vibrate) {
