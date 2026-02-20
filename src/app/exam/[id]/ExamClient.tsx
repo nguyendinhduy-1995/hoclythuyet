@@ -51,7 +51,7 @@ export default function ExamClient({ initialQuestions, config }: Props) {
     const [showNote, setShowNote] = useState(false);
     const [slideDirection, setSlideDirection] = useState<'none' | 'left' | 'right'>('none');
     const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-    const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
     const [bookmarked, setBookmarked] = useState<Record<string, boolean>>({});
 
     const questions = initialQuestions;
@@ -111,12 +111,7 @@ export default function ExamClient({ initialQuestions, config }: Props) {
         }
     }, [currentIndex]);
 
-    // Auto-advance in practice mode
-    useEffect(() => {
-        return () => {
-            if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
-        };
-    }, []);
+
 
     // Swipe gesture handlers
     const handleTouchStart = useCallback((e: React.TouchEvent) => {
@@ -179,15 +174,6 @@ export default function ExamClient({ initialQuestions, config }: Props) {
                     savedRef.current.add(questionId);
                 }
             }
-
-            // Auto-advance after 1.5s in practice mode
-            if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
-            autoAdvanceRef.current = setTimeout(() => {
-                setCurrentIndex((prev) => {
-                    if (prev < questions.length - 1) return prev + 1;
-                    return prev;
-                });
-            }, 1500);
         }
     }, [submitted, config.isPractice, answers, questions]);
 
