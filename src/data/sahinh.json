@@ -1,0 +1,230 @@
+{
+    "overview": {
+        "title": "Sơ đồ sa hình sát hạch",
+        "description": "Sa hình là phần thi thực hành trên sân tập. Thí sinh phải hoàn thành các bài thi trên xe thật theo đúng quy trình."
+    },
+    "lessons": [
+        {
+            "id": "bai-1",
+            "title": "Bài 1: Xuất phát",
+            "description": "Thao tác chuẩn bị và xuất phát xe đúng quy trình an toàn.",
+            "icon": "🚗",
+            "steps": [
+                "Điều chỉnh ghế ngồi, gương chiếu hậu",
+                "Thắt dây an toàn",
+                "Kiểm tra số N (số mo), phanh tay",
+                "Khởi động động cơ",
+                "Bật xi-nhan trái",
+                "Nhìn gương, quan sát an toàn",
+                "Nhả phanh tay, vào số 1, từ từ nhả côn + ga nhẹ",
+                "Xe bắt đầu di chuyển"
+            ],
+            "tips": [
+                "Luôn kiểm tra ghế và gương trước khi khởi động",
+                "Nhả côn chậm rãi ở điểm tiếp để tránh chết máy"
+            ],
+            "commonErrors": [
+                "Quên thắt dây an toàn → trượt ngay",
+                "Nhả côn quá nhanh → chết máy"
+            ]
+        },
+        {
+            "id": "bai-2",
+            "title": "Bài 2: Dừng xe nhường đường cho người đi bộ",
+            "description": "Dừng xe đúng vị trí khi có người đi bộ qua đường.",
+            "icon": "🚶",
+            "steps": [
+                "Quan sát biển báo và vạch kẻ đường dành cho người đi bộ",
+                "Giảm ga, nhẹ phanh",
+                "Dừng xe trước vạch dừng (cách 1-2m)",
+                "Đợi người đi bộ qua hết",
+                "Quan sát an toàn, tiếp tục lăn bánh"
+            ],
+            "tips": [
+                "Phanh nhẹ nhàng, không phanh gấp",
+                "Dừng cách vạch 1-2m là đẹp nhất"
+            ],
+            "commonErrors": [
+                "Dừng quá xa hoặc quá sát vạch",
+                "Đi khi người đi bộ chưa qua hết"
+            ]
+        },
+        {
+            "id": "bai-3",
+            "title": "Bài 3: Dừng và khởi hành ngang dốc",
+            "description": "Dừng xe trên dốc và khởi hành lại mà không bị trôi xe.",
+            "icon": "⛰️",
+            "steps": [
+                "Lên dốc bằng số 1, ga vừa phải",
+                "Dừng xe tại vị trí quy định trên dốc",
+                "Kéo phanh tay, giữ phanh chân",
+                "Khi khởi hành: vào số 1, tăng ga vừa phải",
+                "Từ từ nhả côn đến điểm tiếp (xe hơi rung)",
+                "Nhả phanh tay, ga thêm nhẹ",
+                "Xe tiến lên, không được trôi quá 50cm"
+            ],
+            "tips": [
+                "Cảm nhận điểm tiếp côn qua rung nhẹ của xe",
+                "Ga đủ mạnh trước khi nhả phanh tay"
+            ],
+            "commonErrors": [
+                "Trôi xe quá 50cm → trượt",
+                "Chết máy khi nhả phanh tay (côn chưa đủ)"
+            ]
+        },
+        {
+            "id": "bai-4",
+            "title": "Bài 4: Qua vệt bánh xe",
+            "description": "Điều khiển xe đi qua vệt bánh xe hẹp mà không lệch.",
+            "icon": "🛤️",
+            "steps": [
+                "Đi số 1, tốc độ chậm đều",
+                "Nhắm thẳng mốc giữa nắp ca-pô với vệt đường",
+                "Giữ vô-lăng thẳng, không đánh lái",
+                "Mắt nhìn xa phía trước, không nhìn sát bánh",
+                "Đi hết đoạn vệt, không được lệch bánh"
+            ],
+            "tips": [
+                "Mắt nhìn xa, không nhìn gần bánh xe",
+                "Giữ tay lái thật ổn định, không chỉnh"
+            ],
+            "commonErrors": [
+                "Nhìn sát đầu xe → dễ lệch",
+                "Đánh lái chỉnh liên tục → càng lệch"
+            ]
+        },
+        {
+            "id": "bai-5",
+            "title": "Bài 5: Qua ngã tư có tín hiệu",
+            "description": "Xử lý đúng tín hiệu đèn giao thông tại ngã tư.",
+            "icon": "🚦",
+            "steps": [
+                "Quan sát đèn tín hiệu từ xa",
+                "Đèn xanh: đi qua, quan sát hai bên",
+                "Đèn vàng: dừng trước vạch nếu kịp, nếu đã qua vạch thì tiếp tục",
+                "Đèn đỏ: dừng trước vạch dừng",
+                "Rẽ: bật xi-nhan, nhường xe đi thẳng và người đi bộ"
+            ],
+            "tips": [
+                "Quan sát đèn từ xa để dự đoán thời gian",
+                "Đèn vàng nhấp nháy → đi chậm, quan sát"
+            ],
+            "commonErrors": [
+                "Vượt đèn đỏ → trượt ngay",
+                "Quên bật xi-nhan khi rẽ"
+            ]
+        },
+        {
+            "id": "bai-6",
+            "title": "Bài 6: Đường vòng quanh co",
+            "description": "Điều khiển xe qua các đoạn đường cong liên tiếp hình chữ S.",
+            "icon": "🔄",
+            "steps": [
+                "Đi số 1, tốc độ chậm đều",
+                "Vào cua: đánh lái sớm, từ từ",
+                "Giữ xe đi giữa làn (không chạm vạch 2 bên)",
+                "Mắt nhìn trước 1-2 vòng cua",
+                "Tay vô-lăng: lượt đi — lượt về nhẹ nhàng",
+                "Ra khỏi cua: trả lái dần về thẳng"
+            ],
+            "tips": [
+                "Đánh lái sớm hơn bạn nghĩ",
+                "Tốc độ chậm đều = dễ kiểm soát"
+            ],
+            "commonErrors": [
+                "Chạm vạch bên trái/phải → trượt",
+                "Đánh lái muộn → xe ra khỏi làn"
+            ]
+        },
+        {
+            "id": "bai-7",
+            "title": "Bài 7: Ghép xe dọc vào nơi đỗ",
+            "description": "Ghép xe song song vào ô đỗ xe bên phải đường.",
+            "icon": "🅿️",
+            "steps": [
+                "Đỗ xe song song với xe phía trước (cách ~0.5m)",
+                "Nhìn gương phải, đánh lái sang phải ~1.5 vòng",
+                "Lùi xe từ từ cho đến khi xe nghiêng 45 độ",
+                "Đánh lái ngược lại (sang trái) ~1.5 vòng",
+                "Tiếp tục lùi cho đến khi xe thẳng với lề",
+                "Chỉnh lái cho xe song song với lề đường",
+                "Không để bánh chạm vạch hoặc lề"
+            ],
+            "tips": [
+                "Lùi thật chậm, quan sát gương liên tục",
+                "Nhớ mốc đánh lái theo gương"
+            ],
+            "commonErrors": [
+                "Bánh chạm vạch ô đỗ → trượt",
+                "Lùi quá nhanh → mất kiểm soát"
+            ]
+        },
+        {
+            "id": "bai-8",
+            "title": "Bài 8: Ghép xe ngang vào nơi đỗ",
+            "description": "Ghép xe vuông góc vào ô đỗ.",
+            "icon": "🔲",
+            "steps": [
+                "Đi ngang qua ô đỗ, cách khoảng 1.5m",
+                "Khi gương phải ngang với mốc ô đỗ → dừng",
+                "Đánh lái tối đa sang phải",
+                "Lùi xe từ từ vào ô đỗ",
+                "Khi xe gần thẳng → trả lái về giữa",
+                "Chỉnh cho xe nằm gọn trong ô, không chạm vạch"
+            ],
+            "tips": [
+                "Dùng gương phải để canh mốc",
+                "Trả lái về giữa khi xe đã vào 2/3 ô"
+            ],
+            "commonErrors": [
+                "Dừng sai vị trí → lùi không vào ô",
+                "Quên trả lái → xe bị lệch"
+            ]
+        },
+        {
+            "id": "bai-9",
+            "title": "Bài 9: Tăng/giảm số xe",
+            "description": "Tăng số và giảm số đúng kỹ thuật khi vận hành xe.",
+            "icon": "⚙️",
+            "steps": [
+                "Tăng số: ga đủ → nhả ga → đạp côn → chuyển số lên → nhả côn từ từ + ga",
+                "Giảm số: nhả ga → đạp côn → chuyển số xuống → nhả côn từ từ + ga nhẹ",
+                "Thứ tự: 1 → 2 → 3 → 4 (tăng); 4 → 3 → 2 → 1 (giảm)",
+                "KHÔNG nhảy số (VD: 1 → 3)",
+                "KHÔNG giữ côn lâu (gây hại ly hợp)"
+            ],
+            "tips": [
+                "Nhả côn từ từ, đặc biệt khi về số thấp",
+                "Ga phải đủ trước khi chuyển số"
+            ],
+            "commonErrors": [
+                "Nhảy số (1→3) → trượt",
+                "Giữ côn quá lâu → hỏng ly hợp"
+            ]
+        },
+        {
+            "id": "bai-10",
+            "title": "Bài 10: Kết thúc — Dừng xe an toàn",
+            "description": "Dừng xe tại vị trí kết thúc đúng quy trình.",
+            "icon": "🏁",
+            "steps": [
+                "Bật xi-nhan phải",
+                "Quan sát gương, giảm dần tốc độ",
+                "Ghé xe vào sát lề phải",
+                "Đạp phanh, dừng xe",
+                "Kéo phanh tay",
+                "Về số N (mo)",
+                "Tắt xi-nhan, tắt máy",
+                "Tháo dây an toàn, mở cửa xe"
+            ],
+            "tips": [
+                "Dừng cách lề 20-25cm là lý tưởng",
+                "Làm từng bước, không vội"
+            ],
+            "commonErrors": [
+                "Quên kéo phanh tay → trượt",
+                "Tắt máy trước khi về số N"
+            ]
+        }
+    ]
+}

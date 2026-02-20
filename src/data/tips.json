@@ -1,0 +1,192 @@
+{
+    "categories": [
+        {
+            "id": "diem-liet",
+            "name": "Câu điểm liệt",
+            "icon": "🔥",
+            "color": "#F44336"
+        },
+        {
+            "id": "toc-do",
+            "name": "Tốc độ & Khoảng cách",
+            "icon": "⚡",
+            "color": "#FF9800"
+        },
+        {
+            "id": "bien-bao",
+            "name": "Biển báo",
+            "icon": "🚧",
+            "color": "#4CAF50"
+        },
+        {
+            "id": "sa-hinh",
+            "name": "Sa hình",
+            "icon": "🏁",
+            "color": "#2196F3"
+        },
+        {
+            "id": "xu-phat",
+            "name": "Xử phạt",
+            "icon": "⚖️",
+            "color": "#9C27B0"
+        },
+        {
+            "id": "ky-thuat",
+            "name": "Kỹ thuật lái",
+            "icon": "🔧",
+            "color": "#607D8B"
+        }
+    ],
+    "tips": [
+        {
+            "id": "tip-1",
+            "title": "60 câu điểm liệt — nhớ keyword",
+            "content": "Có 60 câu điểm liệt. Sai 1 câu = TRƯỢT. Keyword cần nhớ:\n• \"Nghiêm cấm\" → hành vi cấm tuyệt đối\n• \"Nồng độ cồn\" → cấm tuyệt đối, không phân biệt mức\n• \"Chất ma túy\" → phạt tiền + tước GPLX\n• \"Đua xe trái phép\" → xử lý hành chính hoặc hình sự\n• \"Bỏ chạy sau tai nạn\" → nghiêm cấm tuyệt đối",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-2",
+            "title": "Nồng độ cồn = 0 tuyệt đối",
+            "content": "Người điều khiển phương tiện KHÔNG ĐƯỢC có nồng độ cồn trong máu hoặc hơi thở. Không có mức \"cho phép\" nào cả.\n\nTrả lời sai câu này = điểm liệt = trượt ngay.",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-3",
+            "title": "Tốc độ trong khu dân cư",
+            "content": "🏘️ Trong khu dân cư:\n• Xe máy, ô tô con: tối đa 50 km/h\n• Đường đôi 60 km/h\n\n🌳 Ngoài khu dân cư:\n• Xe máy: tối đa 70 km/h (đường 2 chiều)\n• Ô tô con: tối đa 90 km/h\n• Xe khách, xe tải: tối đa 80 km/h\n• Xe kéo moóc: tối đa 70 km/h",
+            "category": "toc-do"
+        },
+        {
+            "id": "tip-4",
+            "title": "Tốc độ trên đường cao tốc",
+            "content": "🛣️ Đường cao tốc:\n• Tốc độ tối thiểu: 60 km/h\n• Tốc độ tối đa: theo biển báo (thường 80-120 km/h)\n• Làn trái: tốc độ cao nhất\n• Làn phải: tốc độ thấp nhất\n\n⚠️ KHÔNG được dừng, đỗ, quay đầu trên cao tốc (trừ nơi quy định)",
+            "category": "toc-do"
+        },
+        {
+            "id": "tip-5",
+            "title": "Khoảng cách an toàn theo tốc độ",
+            "content": "Khoảng cách xe an toàn khi trời khô ráo:\n• 60 km/h → khoảng cách 35m\n• 80 km/h → khoảng cách 55m\n• 100 km/h → khoảng cách 70m\n• 120 km/h → khoảng cách 100m\n\n🌧️ Khi trời mưa, đường trơn: nhân đôi khoảng cách",
+            "category": "toc-do"
+        },
+        {
+            "id": "tip-6",
+            "title": "Biển cấm — hình tròn viền đỏ",
+            "content": "🔴 Biển cấm:\n• Hình TRÒN, viền ĐỎ, nền TRẮNG\n• Biển cấm đi ngược chiều: mũi tên trắng trên nền đỏ\n• Biển cấm dừng: chữ X đỏ trên nền xanh\n• Biển cấm đỗ: 1 gạch đỏ chéo trên nền xanh\n\nMẹo: TRÒN ĐỎ = CẤM",
+            "category": "bien-bao"
+        },
+        {
+            "id": "tip-7",
+            "title": "Biển nguy hiểm — tam giác vàng",
+            "content": "⚠️ Biển nguy hiểm/cảnh báo:\n• Hình TAM GIÁC, viền ĐỎ, nền VÀNG\n• Và biển MỘT CHIỀU hướng lên\n\nMẹo: TAM GIÁC = CẢNH BÁO (giống biển yield quốc tế)",
+            "category": "bien-bao"
+        },
+        {
+            "id": "tip-8",
+            "title": "Biển hiệu lệnh — tròn xanh",
+            "content": "🔵 Biển hiệu lệnh:\n• Hình TRÒN, nền XANH DƯƠNG\n• Bắt buộc phải tuân theo (rẽ phải, rẽ trái, đi thẳng...)\n\nMẹo: TRÒN XANH = BẮT BUỘC PHẢI LÀM\n\nPhân biệt: Tròn đỏ = CẤM, Tròn xanh = PHẢI LÀM",
+            "category": "bien-bao"
+        },
+        {
+            "id": "tip-9",
+            "title": "Biển chỉ dẫn — vuông/chữ nhật xanh",
+            "content": "🟦 Biển chỉ dẫn:\n• Hình VUÔNG hoặc CHỮ NHẬT\n• Nền XANH DƯƠNG hoặc XANH LÁ\n• Cung cấp thông tin: đường, địa danh, khoảng cách\n\nMẹo: VUÔNG XANH = THÔNG TIN",
+            "category": "bien-bao"
+        },
+        {
+            "id": "tip-10",
+            "title": "Thứ tự ưu tiên tín hiệu giao thông",
+            "content": "Thứ tự ưu tiên (từ cao → thấp):\n1️⃣ Người điều khiển giao thông (CSGT)\n2️⃣ Đèn tín hiệu giao thông\n3️⃣ Biển báo hiệu\n4️⃣ Vạch kẻ đường\n\n⚠️ Khi CSGT ra hiệu lệnh KHÁC đèn → phải NGHE CSGT",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-11",
+            "title": "Xe ưu tiên — nhớ 5 loại",
+            "content": "5 loại xe được quyền ưu tiên (khi bật còi, đèn):\n1. 🚒 Xe cứu hỏa\n2. 🏥 Xe cứu thương\n3. 🚔 Xe công an, quân sự\n4. 🏛️ Xe hộ đê, phòng chống thiên tai\n5. 🚨 Đoàn xe tang\n\nGặp xe ưu tiên → PHẢI nhường đường",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-12",
+            "title": "Sa hình — nguyên tắc vàng",
+            "content": "Khi giải sa hình, nhớ:\n1. Xe trên đường CÓ vạch chia làn → ai đúng làn đi trước\n2. Xe trên đường CHÍNH đi trước xe đường PHỤ \n3. Không có đường ưu tiên → xe BÊN PHẢI đi trước\n4. Xe rẽ → nhường xe đi THẲNG\n5. Xe đang trên vòng xuyến → đi trước xe vào vòng xuyến",
+            "category": "sa-hinh"
+        },
+        {
+            "id": "tip-13",
+            "title": "Sa hình — vòng xuyến",
+            "content": "Tại VÒNG XUYẾN:\n• Xe đang ĐI TRONG vòng xuyến → ưu tiên\n• Xe mới VÀO vòng xuyến → phải nhường\n• Đi theo chiều NGƯỢC kim đồng hồ\n\nMẹo: ai VÀO sau thì NHƯỜNG — giống vòng xoay thực tế",
+            "category": "sa-hinh"
+        },
+        {
+            "id": "tip-14",
+            "title": "Sa hình — ngã tư không đèn",
+            "content": "Tại ngã tư KHÔNG CÓ đèn, biển:\n• Không có đường ưu tiên → xe từ BÊN PHẢI đi trước\n• Có đường ưu tiên → xe đường ưu tiên đi trước\n\nQuy tắc: Nhìn tay phải → ai không bị cản từ phải thì đi trước",
+            "category": "sa-hinh"
+        },
+        {
+            "id": "tip-15",
+            "title": "Xử phạt — nồng độ cồn ô tô",
+            "content": "⚖️ Nồng độ cồn khi lái ô tô:\n• Có nồng độ cồn → phạt 18-20 triệu, tước GPLX 22-24 tháng\n• Hơi thở > 0.25mg/l → phạt nặng hơn\n• Từ chối kiểm tra → xử phạt mức cao nhất\n\n💡 Tốt nhất: KHÔNG UỐNG khi lái xe",
+            "category": "xu-phat"
+        },
+        {
+            "id": "tip-16",
+            "title": "Xử phạt — vượt đèn đỏ",
+            "content": "🚦 Vượt đèn đỏ:\n• Ô tô: phạt 4-6 triệu, tước GPLX 1-3 tháng\n• Xe máy: phạt 800k-1 triệu\n\n⚠️ Vượt đèn đỏ tại đường sắt giao cắt → phạt nặng hơn",
+            "category": "xu-phat"
+        },
+        {
+            "id": "tip-17",
+            "title": "Kỹ thuật — xuống dốc dài",
+            "content": "🏔️ Khi xuống dốc dài:\n• Sử dụng số THẤP (số 1, 2) + phanh bổ trợ\n• KHÔNG TẮT MÁY khi xuống dốc\n• KHÔNG đạp phanh liên tục (gây nóng, mất phanh)\n• Xe số tự động: chuyển về L hoặc 2\n\nMẹo: Lên dốc dùng số nào → xuống dốc dùng số đó",
+            "category": "ky-thuat"
+        },
+        {
+            "id": "tip-18",
+            "title": "Kỹ thuật — lái xe ban đêm",
+            "content": "🌙 Lái xe ban đêm:\n• Dùng đèn CHIẾU GẦN khi gặp xe ngược chiều\n• Chuyển từ chiếu xa → gần cách 150m\n• Khu dân cư: chỉ dùng đèn chiếu GẦN\n• KHÔNG dùng đèn chiếu xa liên tục trên đường có xe ngược",
+            "category": "ky-thuat"
+        },
+        {
+            "id": "tip-19",
+            "title": "Kỹ thuật — vượt xe đúng quy định",
+            "content": "🚗➡️🚗 Vượt xe:\n• Vượt bên TRÁI (nguyên tắc chung)\n• Bật xi-nhan TRÁI trước khi vượt\n• Sau khi vượt xong → bật xi-nhan PHẢI để trở về làn\n• KHÔNG vượt khi: đường cong, đỉnh dốc, giao lộ, đường hẹp\n• KHÔNG vượt khi xe trước đang vượt xe khác",
+            "category": "ky-thuat"
+        },
+        {
+            "id": "tip-20",
+            "title": "12 điểm GPLX — hệ thống mới",
+            "content": "📋 Hệ thống điểm GPLX:\n• Mỗi GPLX có 12 điểm/năm\n• Vi phạm → bị trừ điểm (2, 4, 6, 8, 10 điểm tùy mức)\n• Bị trừ HẾT 12 điểm → tước GPLX\n• Muốn phục hồi → phải thi lại lý thuyết\n• Sang năm mới → điểm được phục hồi về 12",
+            "category": "xu-phat"
+        },
+        {
+            "id": "tip-21",
+            "title": "Dừng xe vs Đỗ xe",
+            "content": "🅿️ Phân biệt:\n• DỪNG xe: tạm thời, KHÔNG tắt máy, không rời vị trí lái\n• ĐỖ xe: không giới hạn thời gian, có thể rời xe BUT phải kéo phanh tay\n\nNơi CẤM dừng đỗ:\n• Trên cầu, trong hầm\n• Cách ngã tư < 5m\n• Cách trạm xe buýt < 10m\n• Trên đường cao tốc (trừ nơi quy định)",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-22",
+            "title": "Tuổi tối thiểu cấp GPLX",
+            "content": "👤 Tuổi cấp GPLX:\n• 16 tuổi: xe gắn máy < 50cc\n• 18 tuổi: hạng A1, A, B1, B\n• 21 tuổi: hạng C1\n• 24 tuổi: hạng C, D1, BE\n• 27 tuổi: hạng D, CE, D1E\n\n⚠️ Câu hỏi về tuổi rất hay ra trong đề thi!",
+            "category": "diem-liet"
+        },
+        {
+            "id": "tip-23",
+            "title": "Kỹ thuật — qua đường ngập nước",
+            "content": "🌊 Qua đường ngập nước:\n• Đi CHẬM, số THẤP, ga đều\n• KHÔNG dừng giữa đường ngập\n• Không đi khi nước quá sâu (> nửa bánh xe)\n• Sau khi qua: rà phanh nhẹ vài lần để sấy khô phanh",
+            "category": "ky-thuat"
+        },
+        {
+            "id": "tip-24",
+            "title": "Mẹo nhớ biển tốc độ",
+            "content": "🏎️ Biển tốc độ:\n• Biển TRÒN ĐỎ + số = tốc độ TỐI ĐA\n• Biển TRÒN XANH + số = tốc độ TỐI THIỂU\n• Tròn đỏ gạch chéo = HẾT hạn chế tốc độ\n\nMẹo: ĐỎ = GIỚI HẠN, XANH = TỐI THIỂU",
+            "category": "bien-bao"
+        },
+        {
+            "id": "tip-25",
+            "title": "Tai nạn giao thông — cách xử lý",
+            "content": "🆘 Khi gặp tai nạn:\n1. Dừng xe, BẬT đèn cảnh báo\n2. Cứu người bị nạn (ưu tiên nhất)\n3. Bảo vệ hiện trường\n4. Báo công an giao thông\n\n⚠️ BỎ CHẠY sau tai nạn = ĐIỂM LIỆT = vi phạm nghiêm trọng",
+            "category": "diem-liet"
+        }
+    ]
+}

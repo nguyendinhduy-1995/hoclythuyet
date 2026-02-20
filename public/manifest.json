@@ -1,0 +1,28 @@
+{
+    "name": "Học Lý Thuyết Cùng Thầy Duy",
+    "short_name": "Thầy Duy",
+    "description": "Học và thi trực tuyến 600 câu hỏi lý thuyết lái xe ô tô mới nhất 2025 — Cùng Thầy Duy",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#1a5fa0",
+    "background_color": "#f5f7fa",
+    "categories": [
+        "education"
+    ],
+    "lang": "vi",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

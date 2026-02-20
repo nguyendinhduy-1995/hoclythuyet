@@ -1,0 +1,156 @@
+{
+    "categories": [
+        {
+            "id": "xu-phat",
+            "name": "Xử phạt",
+            "icon": "⚖️",
+            "color": "#F44336"
+        },
+        {
+            "id": "toc-do",
+            "name": "Tốc độ",
+            "icon": "⚡",
+            "color": "#FF9800"
+        },
+        {
+            "id": "nong-do-con",
+            "name": "Nồng độ cồn",
+            "icon": "🍺",
+            "color": "#E91E63"
+        },
+        {
+            "id": "gplx",
+            "name": "Giấy phép lái xe",
+            "icon": "📋",
+            "color": "#2196F3"
+        },
+        {
+            "id": "bao-hiem",
+            "name": "Bảo hiểm",
+            "icon": "🛡️",
+            "color": "#4CAF50"
+        },
+        {
+            "id": "quy-tac",
+            "name": "Quy tắc chung",
+            "icon": "📖",
+            "color": "#9C27B0"
+        },
+        {
+            "id": "moi-2024",
+            "name": "Điểm mới 2024",
+            "icon": "🆕",
+            "color": "#00BCD4"
+        }
+    ],
+    "laws": [
+        {
+            "id": "law-1",
+            "title": "Xử phạt nồng độ cồn — Ô tô",
+            "content": "• Chưa vượt 50mg/100ml máu: Phạt 6-8 triệu, tước GPLX 10-12 tháng\n• Vượt 50-80mg/100ml máu: Phạt 16-18 triệu, tước GPLX 16-18 tháng\n• Vượt 80mg/100ml hoặc từ chối kiểm tra: Phạt 30-40 triệu, tước GPLX 22-24 tháng\n\n⚠️ Theo NĐ 168/2024/NĐ-CP: Nồng độ cồn = 0 khi lái xe",
+            "category": "nong-do-con"
+        },
+        {
+            "id": "law-2",
+            "title": "Xử phạt nồng độ cồn — Xe máy",
+            "content": "• Chưa vượt 50mg/100ml máu: Phạt 2-3 triệu, tước GPLX 10-12 tháng\n• Vượt 50-80mg: Phạt 4-5 triệu, tước GPLX 16-18 tháng\n• Vượt 80mg hoặc từ chối: Phạt 6-8 triệu, tước GPLX 22-24 tháng",
+            "category": "nong-do-con"
+        },
+        {
+            "id": "law-3",
+            "title": "Tốc độ tối đa trong khu dân cư",
+            "content": "Đường đôi: Ô tô, xe máy tối đa 60 km/h\nĐường 2 chiều không dải phân: tối đa 50 km/h\n\n⚠️ Áp dụng khi KHÔNG có biển báo tốc độ riêng",
+            "category": "toc-do"
+        },
+        {
+            "id": "law-4",
+            "title": "Tốc độ ngoài khu dân cư",
+            "content": "Đường đôi: Ô tô con 90km/h, Xe tải 80km/h, Xe kéo moóc 70km/h\nĐường 2 chiều: Ô tô con 80km/h, Xe tải 70km/h, Xe máy 70km/h",
+            "category": "toc-do"
+        },
+        {
+            "id": "law-5",
+            "title": "Tốc độ trên đường cao tốc",
+            "content": "Tối thiểu: 60 km/h. Tối đa: theo biển báo (80-120 km/h)\nLàn trái: tốc độ cao nhất. Làn phải: tốc độ thấp nhất\nCấm: dừng, đỗ, quay đầu, lùi xe (trừ nơi quy định)",
+            "category": "toc-do"
+        },
+        {
+            "id": "law-6",
+            "title": "Xử phạt vượt tốc độ — Ô tô",
+            "content": "• Vượt 5-10 km/h: 800k - 1 triệu\n• Vượt 10-20 km/h: 4-6 triệu, tước GPLX 1-3 tháng\n• Vượt 20-35 km/h: 6-8 triệu, tước GPLX 2-4 tháng\n• Vượt trên 35 km/h: 10-12 triệu, tước GPLX 3-5 tháng",
+            "category": "xu-phat"
+        },
+        {
+            "id": "law-7",
+            "title": "Xử phạt vượt đèn đỏ",
+            "content": "Ô tô: 4-6 triệu, tước GPLX 1-3 tháng\nXe máy: 800k - 1 triệu\nXe đạp: 100k - 200k\n⚠️ Gây tai nạn khi vượt đèn đỏ: có thể bị xử lý hình sự",
+            "category": "xu-phat"
+        },
+        {
+            "id": "law-8",
+            "title": "Hệ thống trừ điểm GPLX",
+            "content": "Mỗi GPLX: 12 điểm/năm\nVi phạm nhẹ: trừ 2 điểm. Trung bình: trừ 4. Nặng: trừ 6. Rất nặng: trừ 10-12\nBị trừ hết → tước GPLX, phải thi lại\nĐầu năm mới: phục hồi về 12 (nếu chưa bị tước)\n\n🆕 Luật TTATGT 2024: Áp dụng từ 01/01/2025",
+            "category": "gplx"
+        },
+        {
+            "id": "law-9",
+            "title": "Tuổi tối thiểu cấp GPLX",
+            "content": "16 tuổi: xe gắn máy <50cc\n18 tuổi: A1, A, B1, B\n21 tuổi: C1\n24 tuổi: C, D1, BE\n27 tuổi: D, CE, D1E\n\nThời hạn: A1,A2 không thời hạn; B 10 năm; C trở lên 5 năm",
+            "category": "gplx"
+        },
+        {
+            "id": "law-10",
+            "title": "Bảo hiểm bắt buộc",
+            "content": "Mọi xe cơ giới phải có bảo hiểm trách nhiệm dân sự\nPhạt không có: 400k-600k (xe máy), 800k-1.2tr (ô tô)\nBồi thường tối đa: 150 triệu/người/vụ, 50 triệu tài sản/vụ",
+            "category": "bao-hiem"
+        },
+        {
+            "id": "law-11",
+            "title": "Quy tắc nhường đường",
+            "content": "1. Xe đường ưu tiên đi trước\n2. Xe bên phải đi trước (không có đường ưu tiên)\n3. Xe đi thẳng trước xe rẽ\n4. Xe trong vòng xuyến trước xe vào\n\nXe ưu tiên: 🚒 Cứu hỏa → 🏥 Cứu thương → 🚔 Công an",
+            "category": "quy-tac"
+        },
+        {
+            "id": "law-12",
+            "title": "Quy định dừng, đỗ xe",
+            "content": "CẤM dừng đỗ: trên cầu, hầm, đường sắt, cách ngã tư <5m, cách trạm xe buýt <10m\nDừng xe: tạm thời, không tắt máy\nĐỗ xe: không giới hạn, kéo phanh tay, chèn bánh nếu dốc",
+            "category": "quy-tac"
+        },
+        {
+            "id": "law-13",
+            "title": "Quy định vượt xe",
+            "content": "Vượt bên TRÁI. Bật xi-nhan trái → vượt → xi-nhan phải → trở về\nCẤM vượt: đường cong, đỉnh dốc, giao lộ, đường hẹp, xe trước đang vượt, trên cầu hẹp, trong hầm",
+            "category": "quy-tac"
+        },
+        {
+            "id": "law-14",
+            "title": "Xử phạt dùng điện thoại khi lái",
+            "content": "Ô tô: 2-3 triệu. Xe máy: 800k - 1 triệu\nBao gồm: gọi, nhắn tin, lướt web\n✅ Được phép: tai nghe, Bluetooth rảnh tay",
+            "category": "xu-phat"
+        },
+        {
+            "id": "law-15",
+            "title": "Khoảng cách an toàn",
+            "content": "60km/h → 35m. 80km/h → 55m. 100km/h → 70m. 120km/h → 100m\n🌧️ Trời mưa, sương mù: nhân đôi khoảng cách + bật đèn sương mù",
+            "category": "toc-do"
+        },
+        {
+            "id": "law-16",
+            "title": "Điểm mới Luật TTATGT 2024",
+            "content": "🆕 Luật Trật tự, An toàn Giao thông Đường bộ 2024 (có hiệu lực từ 01/01/2025):\n\n• Cấm tuyệt đối nồng độ cồn khi lái xe\n• Hệ thống trừ điểm GPLX: 12 điểm/năm\n• Thiết bị an toàn cho trẻ em dưới 10 tuổi (hoặc < 135cm) là bắt buộc trên ô tô\n• Tăng mức phạt vi phạm giao thông theo NĐ 168/2024\n• Camera hành trình bắt buộc với xe kinh doanh vận tải",
+            "category": "moi-2024"
+        },
+        {
+            "id": "law-17",
+            "title": "Thiết bị an toàn cho trẻ em trên ô tô",
+            "content": "Trẻ em dưới 10 tuổi hoặc chiều cao < 135cm: PHẢI sử dụng thiết bị an toàn cho trẻ em phù hợp\n\nKhông được ngồi ở hàng ghế trước (trừ xe không có hàng ghế sau)\nPhạt không chấp hành: 800k - 1 triệu đồng\n\n⚠️ Quy định mới theo Luật TTATGT 2024",
+            "category": "moi-2024"
+        },
+        {
+            "id": "law-18",
+            "title": "Mức phạt mới theo NĐ 168/2024",
+            "content": "Tăng mạnh so với NĐ 100/2019:\n• Vượt đèn đỏ (ô tô): 18-20 triệu (trước: 4-6 triệu)\n• Đi ngược chiều cao tốc: 16-18 triệu, tước GPLX 5-7 tháng\n• Nồng độ cồn vượt 80mg: 30-40 triệu (ô tô), 6-8 triệu (xe máy)\n• Không nhường đường xe ưu tiên: 4-6 triệu\n• Không có GPLX: 10-14 triệu (ô tô)",
+            "category": "moi-2024"
+        }
+    ]
+}

@@ -1,0 +1,377 @@
+{
+    "categories": [
+        {
+            "id": "cam",
+            "name": "Biển cấm",
+            "icon": "🔴",
+            "color": "#F44336",
+            "description": "Biển hình tròn, viền đỏ, nền trắng. Cấm các hành vi giao thông."
+        },
+        {
+            "id": "nguy-hiem",
+            "name": "Biển nguy hiểm",
+            "icon": "⚠️",
+            "color": "#FF9800",
+            "description": "Biển hình tam giác, viền đỏ, nền vàng. Cảnh báo nguy hiểm."
+        },
+        {
+            "id": "hieu-lenh",
+            "name": "Biển hiệu lệnh",
+            "icon": "🔵",
+            "color": "#2196F3",
+            "description": "Biển hình tròn, nền xanh. Bắt buộc tuân theo."
+        },
+        {
+            "id": "chi-dan",
+            "name": "Biển chỉ dẫn",
+            "icon": "🟦",
+            "color": "#4CAF50",
+            "description": "Biển vuông/chữ nhật, nền xanh. Cung cấp thông tin."
+        },
+        {
+            "id": "phu",
+            "name": "Biển phụ",
+            "icon": "📋",
+            "color": "#607D8B",
+            "description": "Biển bổ sung thông tin cho biển chính phía trên."
+        }
+    ],
+    "signs": [
+        {
+            "id": "P101",
+            "name": "Đường cấm",
+            "description": "Cấm tất cả các phương tiện đi lại cả hai hướng. Không áp dụng cho người đi bộ.",
+            "category": "cam"
+        },
+        {
+            "id": "P102",
+            "name": "Cấm đi ngược chiều",
+            "description": "Cấm các phương tiện đi vào đường một chiều từ phía ngược lại. Biển đặt ở đầu đường cấm.",
+            "category": "cam"
+        },
+        {
+            "id": "P103a",
+            "name": "Cấm ô tô",
+            "description": "Cấm tất cả ô tô đi qua, trừ xe ưu tiên theo quy định.",
+            "category": "cam"
+        },
+        {
+            "id": "P103b",
+            "name": "Cấm ô tô rẽ phải",
+            "description": "Cấm ô tô rẽ phải tại nơi đặt biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P103c",
+            "name": "Cấm ô tô rẽ trái",
+            "description": "Cấm ô tô rẽ trái tại nơi đặt biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P104",
+            "name": "Cấm xe máy",
+            "description": "Cấm xe máy, xe gắn máy đi qua.",
+            "category": "cam"
+        },
+        {
+            "id": "P105",
+            "name": "Cấm xe đạp",
+            "description": "Cấm xe đạp và xe thô sơ đi qua.",
+            "category": "cam"
+        },
+        {
+            "id": "P106a",
+            "name": "Cấm xe tải",
+            "description": "Cấm xe tải có trọng lượng vượt quá quy định đi qua.",
+            "category": "cam"
+        },
+        {
+            "id": "P107",
+            "name": "Cấm đi bộ",
+            "description": "Cấm người đi bộ đi qua đoạn đường có biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P112",
+            "name": "Cấm dừng và đỗ xe",
+            "description": "Cấm dừng xe và đỗ xe ở khu vực có biển. Nền xanh, chữ X đỏ.",
+            "category": "cam"
+        },
+        {
+            "id": "P113",
+            "name": "Cấm đỗ xe",
+            "description": "Cấm đỗ xe nhưng được phép dừng xe tạm thời. Nền xanh, 1 gạch chéo đỏ.",
+            "category": "cam"
+        },
+        {
+            "id": "P115",
+            "name": "Hạn chế tốc độ tối đa",
+            "description": "Cấm xe chạy quá tốc độ ghi trên biển (km/h). Hình tròn viền đỏ.",
+            "category": "cam"
+        },
+        {
+            "id": "P117",
+            "name": "Cấm sử dụng còi",
+            "description": "Cấm sử dụng còi xe trong khu vực có biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P124",
+            "name": "Cấm quay đầu xe",
+            "description": "Cấm quay đầu xe tại nơi đặt biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P125",
+            "name": "Cấm vượt",
+            "description": "Cấm xe vượt xe khác tại đoạn đường có biển.",
+            "category": "cam"
+        },
+        {
+            "id": "P130",
+            "name": "Hết hạn chế tốc độ",
+            "description": "Hết vùng hạn chế tốc độ tối đa. Biển tròn, gạch chéo.",
+            "category": "cam"
+        },
+        {
+            "id": "P131",
+            "name": "Hết tất cả lệnh cấm",
+            "description": "Hết hiệu lực tất cả biển cấm phía trước.",
+            "category": "cam"
+        },
+        {
+            "id": "W201a",
+            "name": "Chỗ ngoặt nguy hiểm (trái)",
+            "description": "Cảnh báo đường có chỗ ngoặt nguy hiểm vòng bên trái phía trước.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W201b",
+            "name": "Chỗ ngoặt nguy hiểm (phải)",
+            "description": "Cảnh báo đường có chỗ ngoặt nguy hiểm vòng bên phải phía trước.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W202",
+            "name": "Nhiều chỗ ngoặt liên tiếp",
+            "description": "Cảnh báo phía trước có nhiều chỗ ngoặt liên tiếp.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W203a",
+            "name": "Đường dốc lên nguy hiểm",
+            "description": "Cảnh báo phía trước có dốc lên nguy hiểm.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W203b",
+            "name": "Đường dốc xuống nguy hiểm",
+            "description": "Cảnh báo phía trước có dốc xuống nguy hiểm.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W205",
+            "name": "Đường giao nhau",
+            "description": "Cảnh báo nơi giao nhau của hai hoặc nhiều đường.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W207",
+            "name": "Giao nhau với đường sắt",
+            "description": "Cảnh báo phía trước có đường sắt giao cắt.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W208",
+            "name": "Giao nhau với đường không ưu tiên",
+            "description": "Cảnh báo phía trước giao nhau với đường không ưu tiên.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W209",
+            "name": "Đường hẹp",
+            "description": "Cảnh báo đường phía trước bị hẹp lại cả hai bên.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W221",
+            "name": "Đường trơn",
+            "description": "Cảnh báo mặt đường trơn trượt, cần giảm tốc độ.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W224",
+            "name": "Đường có trẻ em",
+            "description": "Cảnh báo khu vực gần trường học hoặc nơi trẻ em thường qua đường.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W225",
+            "name": "Đường người đi bộ cắt ngang",
+            "description": "Cảnh báo phía trước có đường dành cho người đi bộ cắt ngang.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W227",
+            "name": "Công trường",
+            "description": "Cảnh báo phía trước có công trường đang thi công.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W228",
+            "name": "Đá lở",
+            "description": "Cảnh báo phía trước có nguy cơ đá lở trên đường.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "W233",
+            "name": "Nguy hiểm khác",
+            "description": "Cảnh báo nguy hiểm khác không thuộc các biển riêng. Dấu chấm than.",
+            "category": "nguy-hiem"
+        },
+        {
+            "id": "R301a",
+            "name": "Hướng đi thẳng phải theo",
+            "description": "Bắt buộc xe phải đi thẳng, không được rẽ.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R301b",
+            "name": "Hướng phải rẽ phải",
+            "description": "Bắt buộc xe phải rẽ phải phía trước.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R301c",
+            "name": "Hướng phải rẽ trái",
+            "description": "Bắt buộc xe phải rẽ trái phía trước.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R301d",
+            "name": "Các hướng phải đi",
+            "description": "Bắt buộc xe phải đi theo các hướng chỉ dẫn trên biển.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R303",
+            "name": "Nơi giao nhau chạy theo vòng xuyến",
+            "description": "Bắt buộc đi theo hướng vòng xuyến (ngược chiều kim đồng hồ).",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R304",
+            "name": "Đường dành cho xe đạp",
+            "description": "Đường chỉ dành cho xe đạp lưu thông.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R305",
+            "name": "Đường dành cho người đi bộ",
+            "description": "Đường chỉ dành cho người đi bộ.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "R306",
+            "name": "Tốc độ tối thiểu",
+            "description": "Xe phải chạy với tốc độ tối thiểu ghi trên biển. Tròn xanh + số.",
+            "category": "hieu-lenh"
+        },
+        {
+            "id": "I401",
+            "name": "Bắt đầu đường ưu tiên",
+            "description": "Bắt đầu đường ưu tiên, xe trên đường này được quyền ưu tiên tại giao lộ.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I402",
+            "name": "Hết đường ưu tiên",
+            "description": "Hết đường ưu tiên, không còn quyền ưu tiên tại giao lộ.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I403",
+            "name": "Đường một chiều",
+            "description": "Đường chỉ cho phương tiện đi theo một chiều.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I404",
+            "name": "Bắt đầu đường cao tốc",
+            "description": "Bắt đầu đường cao tốc, áp dụng quy định riêng.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I405",
+            "name": "Hết đường cao tốc",
+            "description": "Hết đường cao tốc, trở về quy định đường thường.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I407",
+            "name": "Nơi đỗ xe",
+            "description": "Chỉ nơi được phép đỗ xe. Biển vuông xanh, chữ P trắng.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I408",
+            "name": "Bến xe buýt",
+            "description": "Chỉ vị trí bến xe buýt, nơi xe buýt dừng đón khách.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I409",
+            "name": "Nơi quay đầu xe",
+            "description": "Được phép quay đầu xe tại vị trí này.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I411",
+            "name": "Đường cụt",
+            "description": "Đường phía trước đi vào ngõ cụt, không có lối thông.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I423",
+            "name": "Trạm xăng",
+            "description": "Chỉ vị trí trạm xăng dầu phía trước.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "I425",
+            "name": "Bệnh viện",
+            "description": "Chỉ vị trí bệnh viện hoặc cơ sở y tế phía trước.",
+            "category": "chi-dan"
+        },
+        {
+            "id": "S501",
+            "name": "Phạm vi tác dụng của biển",
+            "description": "Biển phụ cho biết phạm vi tác dụng (khoảng cách) của biển chính.",
+            "category": "phu"
+        },
+        {
+            "id": "S502",
+            "name": "Khoảng cách đến đối tượng",
+            "description": "Biển phụ chỉ khoảng cách từ biển đến đối tượng cần cảnh báo.",
+            "category": "phu"
+        },
+        {
+            "id": "S503",
+            "name": "Hướng tác dụng",
+            "description": "Biển phụ cho biết hướng tác dụng (trái, phải) của biển chính.",
+            "category": "phu"
+        },
+        {
+            "id": "S504",
+            "name": "Loại xe",
+            "description": "Biển phụ chỉ rõ loại xe bị áp dụng quy định của biển chính.",
+            "category": "phu"
+        },
+        {
+            "id": "S505",
+            "name": "Thời gian",
+            "description": "Biển phụ cho biết thời gian áp dụng của biển chính.",
+            "category": "phu"
+        }
+    ]
+}
