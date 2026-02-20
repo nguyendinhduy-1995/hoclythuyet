@@ -1,0 +1,19 @@
+services:
+  taplai-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: taplai-app
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_BASE_URL=https://taplai.thayduydaotaolaixe.com
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    expose:
+      - "3000"
+    networks:
+      - thayduy_default
+
+networks:
+  thayduy_default:
+    external: true
