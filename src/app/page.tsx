@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
 import {
@@ -17,6 +17,22 @@ import {
 import { getBookmarkCount, getBookmarkedIds } from "@/lib/bookmarkStore";
 import { ActionStrip, AICoachCard } from "@/components/HomeWidgets";
 import { initSyncEngine } from "@/lib/syncEngine";
+
+/* ── Motivational quotes for header typewriter ── */
+const MOTTOS = [
+  "Học 5 phút thôi cũng hơn là bỏ 1 ngày.",
+  "Sai không sao — sửa là đậu.",
+  "Câu liệt nhớ kỹ: né là mất điểm, nhớ là có bằng.",
+  "Mỗi ngày 10 câu — 30 ngày là xong 300 câu.",
+  "Đừng học nhiều, học đúng: ưu tiên câu liệt trước.",
+  "Hôm nay đúng thêm 1 câu là tiến lên 1 bậc.",
+  "Thi là trò chơi tâm lý: bình tĩnh là thắng.",
+  "Không cần giỏi — chỉ cần đều.",
+  "Làm đề ít nhưng đều, đậu chắc hơn ôn lan man.",
+  "Kỷ luật nhỏ mỗi ngày tạo kết quả lớn.",
+  "Đậu bằng là bước 1, lái an toàn mới là đích.",
+  "Nhớ nguyên tắc: chậm lại một nhịp, an toàn hơn một đời.",
+];
 
 /* ── Topic data with icons & colors ── */
 const TOPICS = [
@@ -73,6 +89,47 @@ export default function Home() {
   const [lastStudy, setLastStudy] = useState<number | null>(null);
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
+
+  /* ── Typewriter motto state ── */
+  const [mottoDisplay, setMottoDisplay] = useState("");
+  const [mottoFading, setMottoFading] = useState(false);
+  const mottoIdx = useRef(Math.floor(Math.random() * MOTTOS.length));
+
+  useEffect(() => {
+    let timeout: ReturnType<typeof setTimeout>;
+    let cancelled = false;
+
+    const startTyping = () => {
+      const full = MOTTOS[mottoIdx.current];
+      let charPos = 0;
+
+      const typeChar = () => {
+        if (cancelled) return;
+        if (charPos <= full.length) {
+          setMottoDisplay(full.slice(0, charPos));
+          charPos++;
+          timeout = setTimeout(typeChar, 40);
+        } else {
+          // Pause, then fade out and start next
+          timeout = setTimeout(() => {
+            if (cancelled) return;
+            setMottoFading(true);
+            timeout = setTimeout(() => {
+              if (cancelled) return;
+              mottoIdx.current = (mottoIdx.current + 1) % MOTTOS.length;
+              setMottoFading(false);
+              setMottoDisplay("");
+              timeout = setTimeout(startTyping, 300);
+            }, 500);
+          }, 3500);
+        }
+      };
+      typeChar();
+    };
+
+    startTyping();
+    return () => { cancelled = true; clearTimeout(timeout); };
+  }, []);
 
   const showToast = (msg: string) => {
     setToast(msg);
@@ -133,10 +190,12 @@ export default function Home() {
       {/* ── Header ── */}
       <header className={styles.header}>
         <div className={styles.headerInner}>
-          <Link href="/" className={styles.logo}>
-            <span className={styles.logoEmoji}>🚗</span>
-            <span className={styles.logoText}>Thầy Duy</span>
-          </Link>
+          <div className={`${styles.mottoArea} ${mottoFading ? styles.mottoFadeOut : ""}`}>
+            <span className={styles.mottoText}>
+              {mottoDisplay}
+              <span className={styles.mottoCursor}>|</span>
+            </span>
+          </div>
           <div className={styles.headerActions}>
             <Link href="/tim-kiem" className={styles.headerIconBtn} title="Tìm kiếm">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
