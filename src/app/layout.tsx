@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import ClientShell from "@/components/ClientShell";
 
@@ -74,6 +75,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <Script src="/analytics-tracker.js" strategy="afterInteractive" />
       </body>
     </html>
   );
